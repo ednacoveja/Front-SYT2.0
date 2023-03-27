@@ -1,13 +1,13 @@
 import './App.css';
 import { Route } from 'react-router-dom';
-import Landing from './view/Landing';
-import About from './view/About';
-import Admin from './view/Admin';
-import Claim from './view/Claim';
-import Home from './view/Home';
-import Premium from './view/Premium';
-import Profile from './view/Profile';
-import ReportUser from './view/ReportUser';
+import Landing from './view/Landing/Landing';
+import About from './view/About/About';
+import Admin from './view/Admin/Admin';
+import Claim from './view/Claim/Claim';
+import Home from './view/Home/Home';
+import Premium from './view/Premium/Premium';
+import Profile from './view/Profile/Profile';
+import ReportUser from './view/ReportUser/ReportUser';
 
 function App() {
   return (
